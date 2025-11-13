@@ -1,4 +1,4 @@
-# Lab7Web - PHP Dasar
+# Lab7Web - Pratikum PHP Dasar
 
 Nama: Marsya Nabila Putri
 
