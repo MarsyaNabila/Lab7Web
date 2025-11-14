@@ -18,7 +18,7 @@ Setelah data dikirimkan, PHP akan memprosesnya dengan cara:
 -  Menentukan besaran gaji sesuai pekerjaan yang dipilih, menggunakan struktur kontrol **switch-case** untuk membedakan setiap kategori pekerjaan.
 - Menampilkan kembali seluruh hasil input beserta perhitungan pada halaman yang sama.
 
-Program ini cocok untuk mempelajari cara kerja form, pengolahan data, dan pengambilan keputusan dalam PHP.
+Program ini mempelajari cara kerja form, pengolahan data, dan pengambilan keputusan dalam PHP.
 
 
 
