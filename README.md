@@ -10,7 +10,7 @@ Matakuliah: Pemograman Web 1
 
 # Deskripsi
 
-Program ini merupakan aplikasi PHP dasar yang memanfaatkan sebuah form HTML sebagai media input data. Pengguna dapat memasukkan **nama**, **tanggal lahir**, serta **jenis pekerjaan** yang dipilih dari daftar pilihan.
+Program ini merupakan aplikasi PHP dasar yang memanfaatkan sebuah media input data. Pengguna dapat memasukkan **nama**, **tanggal lahir**, serta **jenis pekerjaan** yang dipilih dari daftar pilihan.
 
 Setelah data dikirimkan, PHP akan memprosesnya dengan cara:
 
