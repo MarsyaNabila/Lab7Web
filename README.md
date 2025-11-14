@@ -14,8 +14,8 @@ Program ini merupakan aplikasi PHP dasar yang memanfaatkan sebuah form HTML seba
 
 Setelah data dikirimkan, PHP akan memprosesnya dengan cara:
 
-1. **Menghitung usia pengguna** secara otomatis berdasarkan tanggal lahir yang diberikan.
-2. **Menentukan besaran gaji** sesuai pekerjaan yang dipilih, menggunakan struktur kontrol **switch-case** untuk membedakan setiap kategori pekerjaan.
+1. Menghitung usia pengguna secara otomatis berdasarkan tanggal lahir yang diberikan.
+2. Menentukan besaran gaji sesuai pekerjaan yang dipilih, menggunakan struktur kontrol **switch-case** untuk membedakan setiap kategori pekerjaan.
 3. Menampilkan kembali seluruh hasil input beserta perhitungan pada halaman yang sama.
 
 Program ini cocok untuk mempelajari cara kerja form, pengolahan data, dan pengambilan keputusan dalam PHP.
