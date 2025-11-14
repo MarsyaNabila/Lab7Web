@@ -61,9 +61,9 @@ Program ini mempelajari cara kerja form, pengolahan data, dan pengambilan keputu
    * Buka folder project menggunakan Git Bash atau terminal.
    * Jalankan perintah:
 
-     * `git add .`
-     * `git commit -m "Menambahkan program PHP form input dan perhitungan"`
-     * `git push`
+     - `git add .`
+     - `git commit -m "Menambahkan program PHP form input dan perhitungan"`
+     -  `git push`
    * Pastikan repository GitHub sudah dibuat dan remote sudah terhubung.
 
 
