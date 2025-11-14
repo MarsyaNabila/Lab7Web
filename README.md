@@ -20,5 +20,9 @@ Setelah data dikirimkan, PHP akan memprosesnya dengan cara:
 
 Program ini mempelajari cara kerja form, pengolahan data, dan pengambilan keputusan dalam PHP.
 
+# Hasil Screenshot (Tampilan Code)
+
+# Hasil Output Program
+
 
 
