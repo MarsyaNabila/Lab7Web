@@ -40,6 +40,9 @@ Selanjutnya, bagian `<body>` adalah area yang tampil pada layar. Di sana terdapa
 
 # Predefine PHP
 
+<img width="956" height="533" alt="image" src="https://github.com/user-attachments/assets/25dccad2-b63a-4abf-b11c-d06fe246e8d0" />
+
+
 # From Input
 
 <img width="952" height="602" alt="image" src="https://github.com/user-attachments/assets/127921c2-2730-4314-8f56-af6f7ad305f7" />
