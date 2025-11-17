@@ -56,6 +56,9 @@ Selanjutnya, bagian `<body>` adalah area yang tampil pada layar. Di sana terdapa
 
 # Kondisi
 
+<img width="945" height="588" alt="image" src="https://github.com/user-attachments/assets/dcde92da-93fa-495b-959d-a66fd988c70d" />
+
+
 
 
 
