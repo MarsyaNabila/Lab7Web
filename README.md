@@ -32,6 +32,12 @@ Matakuliah: Pemograman Web 1
 <img width="1224" height="522" alt="Screenshot 2025-11-17 104206" src="https://github.com/user-attachments/assets/d384366c-ead2-40af-841d-eead4390f295" />
 
 
+Kode tersebut adalah sebuah halaman web sederhana yang menggunakan HTML dan PHP. Bagian paling atas `<!DOCTYPE html>` menunjukkan bahwa dokumen ini adalah HTML5. Lalu pada tag `<html lang="id">`, halaman diatur agar menggunakan bahasa Indonesia. Di dalam bagian `<head>`, terdapat `<meta charset="UTF-8">` yang berfungsi menentukan karakter encoding agar teks yang muncul dapat ditampilkan dengan benar, dan `<title>PHP Dasar</title>` yang akan tampil sebagai judul tab di browser.
+
+Selanjutnya, bagian `<body>` adalah area yang tampil pada layar. Di sana terdapat tulisan “Belajar PHP Dasar” yang dibuat menggunakan tag `<h1>` sehingga tampil sebagai judul besar. Setelah itu terdapat bagian PHP yang ditandai dengan `<?php ... ?>`. Di dalamnya ada perintah `echo "Hello World";` yang digunakan untuk menampilkan teks ke halaman web. Jadi ketika file ini dijalankan di server yang mendukung PHP, halaman akan menampilkan judul “Belajar PHP Dasar” diikuti teks “Hello World”. Kode ini merupakan bentuk paling dasar dari kombinasi HTML dan PHP untuk menampilkan output pertama.
+
+
+
 # Deskripsi
 
 Program ini merupakan aplikasi PHP dasar yang memanfaatkan sebuah media input data. Pengguna dapat memasukkan **nama**, **tanggal lahir**, serta **jenis pekerjaan** yang dipilih dari daftar pilihan.
