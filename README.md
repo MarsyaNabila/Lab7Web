@@ -64,6 +64,15 @@ Selanjutnya, bagian `<body>` adalah area yang tampil pada layar. Di sana terdapa
 
 <img width="953" height="759" alt="image" src="https://github.com/user-attachments/assets/f5c6c67c-e478-42ba-84e8-e684035a496f" />
 
+## While
+
+<img width="958" height="667" alt="image" src="https://github.com/user-attachments/assets/bd55799f-baea-4679-a02b-0a23f6a176e7" />
+
+
+## DO While
+
+<img width="940" height="572" alt="image" src="https://github.com/user-attachments/assets/256ffe28-7b13-4688-8ffe-a0a5fa9114ec" />
+
 
 
 
