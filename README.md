@@ -44,7 +44,7 @@ Selanjutnya, bagian `<body>` adalah area yang tampil pada layar. Di sana terdapa
 
 
 
-# Deskripsi
+# Tugas LAB7WEB
 
 Program ini merupakan aplikasi PHP dasar yang memanfaatkan sebuah media input data. Pengguna dapat memasukkan **nama**, **tanggal lahir**, serta **jenis pekerjaan** yang dipilih dari daftar pilihan.
 
