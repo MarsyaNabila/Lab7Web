@@ -69,6 +69,9 @@ Selanjutnya, bagian `<body>` adalah area yang tampil pada layar. Di sana terdapa
 
 <img width="949" height="661" alt="image" src="https://github.com/user-attachments/assets/3382b6d3-46fe-433f-90ac-57b57f3d183a" />
 
+Kode tersebut membuat halaman web sederhana yang menampilkan teks menggunakan PHP. Pada bagian HTML ditampilkan judul “Belajar PHP Dasar”. Di dalam tag PHP, pertama-tama kode menampilkan tulisan “Hello World”. Setelah itu ditampilkan subjudul “Menggunakan Variabel”. Dua variabel dibuat, yaitu `$nim` berisi “312410338” dan `$nama` berisi “Marsya Nabila”. Kedua variabel ini kemudian ditampilkan ke halaman menggunakan `echo`, sehingga muncul teks NIM dan Nama sesuai isi variabel tersebut.
+
+
 
 # Predefine PHP
 
@@ -95,6 +98,8 @@ Selanjutnya, bagian `<body>` adalah area yang tampil pada layar. Di sana terdapa
 
 
 <img width="956" height="533" alt="image" src="https://github.com/user-attachments/assets/25dccad2-b63a-4abf-b11c-d06fe246e8d0" />
+
+Kode tersebut membuat halaman web yang menampilkan sambutan menggunakan variabel bawaan PHP. Bagian HTML hanya menampilkan judul “Predefine Variable”. Pada bagian PHP, program mengecek apakah di URL terdapat data `nama` melalui `$_GET['nama']`. Jika ada, maka halaman akan menampilkan “Selamat Datang” diikuti nama yang dikirim lewat URL. Jika tidak ada data tersebut, maka akan muncul sambutan default yaitu “Selamat Datang, Marsya Nabila!”. Dengan kata lain, halaman ini menampilkan nama sesuai input dari URL, tetapi tetap punya nama bawaan kalau tidak ada input.
 
 
 # From Input
@@ -125,6 +130,9 @@ Selanjutnya, bagian `<body>` adalah area yang tampil pada layar. Di sana terdapa
 
 <img width="952" height="602" alt="image" src="https://github.com/user-attachments/assets/127921c2-2730-4314-8f56-af6f7ad305f7" />
 
+Kode tersebut membuat sebuah halaman yang menampilkan form sederhana untuk memasukkan nama. Form menggunakan metode POST dan memiliki satu input teks serta tombol Kirim. Namun, meskipun ada form, nilai dari input tidak diproses; bagian PHP di bawahnya hanya menampilkan teks tetap yaitu “Selamat Datang Marsya Nabila”. Jadi apa pun yang diisi di form tidak memengaruhi output, karena program tidak mengambil data dari form dan hanya menampilkan sambutan statis.
+
+
 # Operator 
 ```
 <!DOCTYPE html>
@@ -148,6 +156,9 @@ Selanjutnya, bagian `<body>` adalah area yang tampil pada layar. Di sana terdapa
 ```
 
 <img width="949" height="475" alt="image" src="https://github.com/user-attachments/assets/5585c3cd-7b68-4f3d-97ab-b4bf78acfa37" />
+
+Kode tersebut menghitung gaji bersih menggunakan operator aritmatika di PHP. Variabel `$gaji` berisi 1.000.000 dan `$pajak` berisi 0.1 (artinya 10%). Kemudian `$thp` dihitung dari gaji dikurangi hasil perkalian gaji dengan pajak. Setelah perhitungan selesai, program menampilkan gaji sebelum pajak dan gaji yang dibawa pulang. Hasilnya adalah tampilan dua baris yang menunjukkan nilai gaji awal dan gaji setelah dipotong pajak.
+
 
 # Kondisi
 ```
@@ -190,6 +201,9 @@ switch ($nama_hari) {
 
 <img width="945" height="588" alt="image" src="https://github.com/user-attachments/assets/dcde92da-93fa-495b-959d-a66fd988c70d" />
 
+Kode tersebut menampilkan nama hari menggunakan dua jenis struktur kondisi, yaitu **IF** dan **SWITCH**. Variabel `$nama_hari` mengambil nama hari sekarang dalam bahasa Inggris lewat `date("l")`. Bagian IF mengecek apakah hari itu Sunday atau Monday; jika Sunday ditampilkan “Minggu”, jika Monday ditampilkan “Senin”, dan selain itu ditampilkan pesan bahwa hari ini bukan kedua hari tersebut. Setelah garis pemisah `<hr>`, bagian SWITCH melakukan pengecekan yang sama tetapi dengan lebih banyak pilihan, yaitu Sunday, Monday, dan Tuesday. Jika tidak masuk salah satu dari ketiganya, maka akan tampil “Hari lainnya”. Dengan begitu, kode ini menunjukkan dua cara berbeda untuk mengecek kondisi berdasarkan nama hari.
+
+
 # Perulangan
 
 ## 1. for
@@ -222,6 +236,9 @@ switch ($nama_hari) {
 
 <img width="953" height="759" alt="image" src="https://github.com/user-attachments/assets/f5c6c67c-e478-42ba-84e8-e684035a496f" />
 
+Kode tersebut menampilkan dua jenis perulangan menggunakan **for**. Perulangan pertama berjalan dari angka 1 sampai 10, sehingga setiap putaran mencetak teks “Perulangan ke-” diikuti nomor urutnya. Setelah itu dibuat garis pemisah `<hr>`. Lalu perulangan kedua berjalan dari angka 10 turun ke 1, sehingga hasilnya menampilkan urutan menurun. Dengan kata lain, kode ini menunjukkan contoh loop naik dan loop turun menggunakan struktur for di PHP.
+
+
 ## While
 
 ```
@@ -246,6 +263,9 @@ switch ($nama_hari) {
 ```
 
 <img width="958" height="667" alt="image" src="https://github.com/user-attachments/assets/bd55799f-baea-4679-a02b-0a23f6a176e7" />
+
+Kode tersebut menampilkan perulangan menggunakan **while**. Variabel `$i` mulai dari 1, lalu selama nilainya masih kurang atau sama dengan 10, perulangan akan terus berjalan. Di dalam loop, program mencetak teks “Perulangan ke-” sesuai nilai `$i`, kemudian `$i` ditambah satu setiap putaran. Hasilnya, halaman menampilkan urutan dari 1 sampai 10 menggunakan struktur while.
+
 
 
 ## DO While
@@ -273,6 +293,9 @@ switch ($nama_hari) {
 
 
 <img width="940" height="572" alt="image" src="https://github.com/user-attachments/assets/256ffe28-7b13-4688-8ffe-a0a5fa9114ec" />
+
+Kode tersebut menampilkan perulangan menggunakan **do...while**. Nilai `$i` dimulai dari 1, lalu bagian `do` akan dijalankan terlebih dahulu untuk menampilkan teks “Perulangan ke-” beserta angkanya. Setelah itu `$i` ditambah satu, kemudian kondisi `while ($i <= 10)` dicek. Selama kondisi masih benar, perulangan akan terus diulang. Karena bagian `do` selalu dijalankan minimal sekali, urutan angka 1 sampai 10 akan tampil pada halaman.
+
 
 
 
