@@ -58,6 +58,13 @@ Selanjutnya, bagian `<body>` adalah area yang tampil pada layar. Di sana terdapa
 
 <img width="945" height="588" alt="image" src="https://github.com/user-attachments/assets/dcde92da-93fa-495b-959d-a66fd988c70d" />
 
+# Perulangan
+
+## 1. for
+
+<img width="953" height="759" alt="image" src="https://github.com/user-attachments/assets/f5c6c67c-e478-42ba-84e8-e684035a496f" />
+
+
 
 
 
