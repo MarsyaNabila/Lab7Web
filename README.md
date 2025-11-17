@@ -38,23 +38,155 @@ Selanjutnya, bagian `<body>` adalah area yang tampil pada layar. Di sana terdapa
 
 # Variable PHP
 
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PHP Dasar</title>
+</head>
+<body>
+    <h1>Belajar PHP Dasar</h1>
+
+    <?php
+    // Menampilkan teks Hello World
+    echo "Hello World<br>";
+
+    // Menampilkan subjudul di bawah Hello World
+    echo "<h2>Menggunakan Variabel</h2>";
+
+    // Deklarasi variabel
+    $nim = "312410338";
+    $nama = "Marsya Nabila";
+
+    // Menampilkan isi variabel
+    echo "NIM : " . $nim . "<br>";
+    echo "Nama : " . $nama;
+    ?>
+</body>
+</html>
+```
+
 <img width="949" height="661" alt="image" src="https://github.com/user-attachments/assets/3382b6d3-46fe-433f-90ac-57b57f3d183a" />
 
 
 # Predefine PHP
 
+```
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Predefine Variable</title>
+</head>
+<body>
+    <h1>Predefine Variable</h1>
+
+    <?php
+    if (isset($_GET['nama'])) {
+        echo 'Selamat Datang ' . $_GET['nama'];
+    } else {
+        echo 'Selamat Datang, Marsya Nabila!';
+    }
+    ?>
+</body>
+</html>
+```
+
+
 <img width="956" height="533" alt="image" src="https://github.com/user-attachments/assets/25dccad2-b63a-4abf-b11c-d06fe246e8d0" />
 
 
 # From Input
+```
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Input</title>
+</head>
+<body>
+    <h2>Form Input</h2>
+
+    <form method="post">
+        <label>Nama: </label>
+        <input type="text" name="nama">
+        <input type="submit" value="Kirim">
+    </form>
+
+    <?php
+    // Menampilkan teks di bawah form
+    echo 'Selamat Datang Marsya Nabila';
+    ?>
+</body>
+</html>
+```
+
 
 <img width="952" height="602" alt="image" src="https://github.com/user-attachments/assets/127921c2-2730-4314-8f56-af6f7ad305f7" />
 
 # Operator 
+```
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Operator PHP</title>
+</head>
+<body>
+    <h2>Operator Aritmatika di PHP</h2>
+    <?php
+        $gaji = 1000000;
+        $pajak = 0.1;
+        $thp = $gaji - ($gaji * $pajak);
+
+        echo "Gaji sebelum pajak = Rp. $gaji <br>";
+        echo "Gaji yang dibawa pulang = Rp. $thp";
+    ?>
+</body>
+</html>
+```
 
 <img width="949" height="475" alt="image" src="https://github.com/user-attachments/assets/5585c3cd-7b68-4f3d-97ab-b4bf78acfa37" />
 
 # Kondisi
+```
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Struktur Kondisi PHP</title>
+</head>
+<body>
+    <h2>Struktur Kondisi IF dan SWITCH</h2>
+<?php
+$nama_hari = date("l");
+if ($nama_hari == "Sunday") {
+    echo "Minggu";
+} elseif ($nama_hari == "Monday") {
+    echo "Senin";
+} else {
+    echo "Hari ini bukan Minggu atau Senin";
+}
+
+echo "<hr>";
+
+switch ($nama_hari) {
+    case "Sunday":
+        echo "Minggu";
+        break;
+    case "Monday":
+        echo "Senin";
+        break;
+    case "Tuesday":
+        echo "Selasa";
+        break;
+    default:
+        echo "Hari lainnya";
+}
+?>
+```
+
 
 <img width="945" height="588" alt="image" src="https://github.com/user-attachments/assets/dcde92da-93fa-495b-959d-a66fd988c70d" />
 
@@ -62,14 +194,83 @@ Selanjutnya, bagian `<body>` adalah area yang tampil pada layar. Di sana terdapa
 
 ## 1. for
 
+```
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Perulangan for</title>
+</head>
+<body>
+    <h2>Perulangan for (1 sampai 10)</h2>
+
+    <?php
+        for ($i = 1; $i <= 10; $i++) {
+            echo "Perulangan ke-$i<br>";
+        }
+
+        echo "<hr>";
+
+        echo "Perulangan menurun dari 10 ke 1<br>";
+        for ($i = 10; $i >= 1; $i--) {
+            echo "Perulangan ke-$i<br>";
+        }
+    ?>
+</body>
+</html>
+```
+
 <img width="953" height="759" alt="image" src="https://github.com/user-attachments/assets/f5c6c67c-e478-42ba-84e8-e684035a496f" />
 
 ## While
+
+```
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Perulangan while</title>
+</head>
+<body>
+    <h2>Perulangan while (1 sampai 10)</h2>
+
+    <?php
+        $i = 1;
+        while ($i <= 10) {
+            echo "Perulangan ke-$i<br>";
+            $i++;
+        }
+    ?>
+</body>
+</html>
+```
 
 <img width="958" height="667" alt="image" src="https://github.com/user-attachments/assets/bd55799f-baea-4679-a02b-0a23f6a176e7" />
 
 
 ## DO While
+
+```
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Perulangan do...while</title>
+</head>
+<body>
+    <h2>Perulangan do...while (1 sampai 10)</h2>
+
+    <?php
+        $i = 1;
+        do {
+            echo "Perulangan ke-$i<br>";
+            $i++;
+        } while ($i <= 10);
+    ?>
+</body>
+</html>
+```
+
 
 <img width="940" height="572" alt="image" src="https://github.com/user-attachments/assets/256ffe28-7b13-4688-8ffe-a0a5fa9114ec" />
 
