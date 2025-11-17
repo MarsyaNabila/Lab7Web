@@ -8,6 +8,23 @@ Kelas: TI 24 A4
 
 Matakuliah: Pemograman Web 1
 
+# PHP Dasar
+```
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>PHP Dasar</title>
+</head>
+<body>
+    <h1>Belajar PHP Dasar</h1>
+    <?php
+        echo "Hello World";
+    ?>
+</body>
+</html>
+```
+
 # Deskripsi
 
 Program ini merupakan aplikasi PHP dasar yang memanfaatkan sebuah media input data. Pengguna dapat memasukkan **nama**, **tanggal lahir**, serta **jenis pekerjaan** yang dipilih dari daftar pilihan.
