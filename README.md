@@ -42,6 +42,9 @@ Selanjutnya, bagian `<body>` adalah area yang tampil pada layar. Di sana terdapa
 
 # From Input
 
+<img width="952" height="602" alt="image" src="https://github.com/user-attachments/assets/127921c2-2730-4314-8f56-af6f7ad305f7" />
+
+
 
 
 # Tugas LAB7WEB
