@@ -25,6 +25,9 @@ Matakuliah: Pemograman Web 1
 </html>
 ```
 
+<img width="1224" height="522" alt="Screenshot 2025-11-17 104206" src="https://github.com/user-attachments/assets/d384366c-ead2-40af-841d-eead4390f295" />
+
+
 # Deskripsi
 
 Program ini merupakan aplikasi PHP dasar yang memanfaatkan sebuah media input data. Pengguna dapat memasukkan **nama**, **tanggal lahir**, serta **jenis pekerjaan** yang dipilih dari daftar pilihan.
