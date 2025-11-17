@@ -9,6 +9,9 @@ Kelas: TI 24 A4
 Matakuliah: Pemograman Web 1
 
 # PHP Dasar
+
+<img width="950" height="475" alt="Screenshot 2025-11-17 102920" src="https://github.com/user-attachments/assets/4b512e51-ed59-4eb2-8c1b-21a105e8f9f8" />
+
 ```
 <!DOCTYPE html>
 <html lang="id">
@@ -24,8 +27,6 @@ Matakuliah: Pemograman Web 1
 </body>
 </html>
 ```
-
-<img width="950" height="475" alt="Screenshot 2025-11-17 102920" src="https://github.com/user-attachments/assets/4b512e51-ed59-4eb2-8c1b-21a105e8f9f8" />
 
 
 <img width="1224" height="522" alt="Screenshot 2025-11-17 104206" src="https://github.com/user-attachments/assets/d384366c-ead2-40af-841d-eead4390f295" />
