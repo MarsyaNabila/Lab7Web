@@ -143,5 +143,8 @@ Program ini mempelajari cara kerja form, pengolahan data, dan pengambilan keputu
 
 # 📃 Hasil Output Program
 
+<img width="957" height="774" alt="image" src="https://github.com/user-attachments/assets/f16188b8-5c05-41a8-84f6-2a7ee441b1c5" />
+
+
 
 
