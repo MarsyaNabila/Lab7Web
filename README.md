@@ -50,6 +50,14 @@ Selanjutnya, bagian `<body>` adalah area yang tampil pada layar. Di sana terdapa
 
 <img width="952" height="602" alt="image" src="https://github.com/user-attachments/assets/127921c2-2730-4314-8f56-af6f7ad305f7" />
 
+# Operator 
+
+<img width="949" height="475" alt="image" src="https://github.com/user-attachments/assets/5585c3cd-7b68-4f3d-97ab-b4bf78acfa37" />
+
+# Kondisi
+
+
+
 
 
 
